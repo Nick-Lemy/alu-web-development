@@ -10,3 +10,10 @@ This Project purpose is to write a purely html website using the provided figma 
 3. Start coding the html refering to the given design available on figma, from the header till the footer, and then YEAH! the work is done!
 
 Thank you!!
+
+# The Figma Design
+![Figma Design](design.jpg)
+
+# html Structure for the Design
+
+![html Structure](html_structure.jpg)
