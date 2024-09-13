@@ -1,6 +1,11 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color:rgb(249, 246, 185);
+}
+
+.logo{
+    color: rgb(77, 30, 30);
 }
 
 main{
@@ -15,6 +20,7 @@ article{
 }
 
 aside{
+    background-color:rgb(143, 172, 172);
     flex: 1;
     overflow-y: auto;
 }
