@@ -59,6 +59,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .section-1 .get-schooled{
@@ -97,6 +98,7 @@ main{
     padding: 10px 10px;
     width: 185px;
     height: 50px;
+    box-shadow: #131313;
 }
 
 .section-1 .learn-from-pros{
@@ -123,8 +125,14 @@ main{
 }
 
 .section-1 .learn-from-pros .pros div{
-
+    align-items: center;
+    text-align: center;
 }
+
+.section-1 .learn-from-pros .pros div p{
+    font-style: italic;
+}
+
 
 .section-1 .learn-from-pros .pros img{
     width: 150px;
