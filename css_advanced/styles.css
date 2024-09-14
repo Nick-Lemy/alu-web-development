@@ -10,6 +10,8 @@ body {
     color: #fff;
     line-height: 1.5;
     background-color: #101a2d;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /* Header styling */
@@ -19,7 +21,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 123%;
     object-fit: cover;
     z-index: -1; /* Ensure the background is behind other elements */
 }
@@ -30,7 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px 50px;
+    padding: 30px 50px
 }
 
 .nav-bar .logo img {
@@ -50,7 +52,7 @@ body {
 }
 
 main{
-    margin-top: 200px;
+    margin-top: 80px;
 }
 
 .section-1{
@@ -63,6 +65,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .section-1 .get-schooled h1{
@@ -94,6 +97,38 @@ main{
     padding: 10px 10px;
     width: 185px;
     height: 50px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+}
+
+.section-1 .learn-from-pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 .learn-from-pros h2{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 120px;
+}
+
+.section-1 .learn-from-pros h2 span{
+    color: #C271FF;
+}
+
+.section-1 .learn-from-pros .pros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.section-1 .learn-from-pros .pros div{
+
+}
+
+.section-1 .learn-from-pros .pros img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
