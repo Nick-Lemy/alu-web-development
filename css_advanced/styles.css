@@ -26,17 +26,6 @@ header {
 }
 
 /* Header styling */
-
-/* .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-} */
-
 .ming {
     position: relative;
 }
@@ -210,12 +199,6 @@ header {
 .section-2 blockquote {
     font-size: 22px;
 }
-
-
-/* nick */
-
-
-/* Header Styles */
 
 /* Hero Section */
 
