@@ -84,6 +84,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(
+    70.9% 85.9% at 50% 0%,
+    rgba(41, 48, 61, 0.0001) 0%,
+    #071629 100%
+  );
 }
 
 .section-1 .get-schooled {
@@ -330,12 +335,16 @@ header {
     justify-content: space-between;
 }
 
-.sub-sub-video p{
+.section-3 .sub-sub-video p{
+    color: #C271FF;
+   opacity: 100%;
+}
+
+.minutes{
     color: #C271FF;
     font-weight: normal;
 }
-
-.tutorials div p {
+.tutorials div>p {
     color: #071629;
     text-align: left;
     font-weight: 100;
