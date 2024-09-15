@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Ensure the background is behind other elements */
+    z-index: -1;
 }
 
 /* Navbar styling */
