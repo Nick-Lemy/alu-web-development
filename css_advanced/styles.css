@@ -417,27 +417,45 @@ header {
 .section-5 {
     background-color: white;
     color: #000000;
-    padding: 60px 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-5>div{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
 }
 
 .section-5 h1 {
-    font-size: 2.5rem;
+    font-size: 60px;
     text-align: center;
+    font-weight: lighter;
 }
 
-.section-5 .faq-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    margin-top: 40px;
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 12%;
+
 }
 
-.section-5 .faq-grid div {
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 10px;
+.faq-container div{
+    margin-bottom: 100px;
 }
 
+
+.faq-container div h2{
+    margin-bottom: 20px;
+}
+
+.faq-container div p{
+    width: 70%;
+    opacity: 60%;
+}
 /* Footer */
 footer {
     background-color: #2c3e50;
